@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="nombreFichero">datosInmuebles.xml</string>
+
+    <string name="codificacion">UTF-8</string>
+
+    <string name="identificador">identificador</string>
+    <string name="siguiente"> &gt; </string>
+    <string name="anterior"> &lt; </string>
+    <string name="app_name">INMOBILIARIA ALPHA 101 </string>
+    <string name="title_activity_datos_inmuebles">DETALLES DEL INMUEBLE</string>
+    <string name="title_activity_editar">EDITAR INMUEBLE</string>
+    <string name="nombre_foto">inmueble_</string>
+    <string name="formato_fecha">yyyy_MM_dd_hh_mm_ss</string>
+    <string name="borrar_inmueble">BORRAR INMUEBLE</string>
+    <string name="editar_inmueble">EDITAR INMUEBLE</string>
+    <string name="nueva_foto">NUEVA FOTO</string>
+    <string name="inmueble">INMUEBLE</string>
+    <string name="inmuebles">INMUEBLES</string>
+    <string name="posicion">POSICION</string>
+    <string name="nuevo">NUEVO INMUEBLE</string>
+    <string name="usuario">CAMBIAR USUARIO</string>
+    <string name="tv_tipo">TIPO:</string>
+    <string name="direccion">DIRECCION</string>
+    <string name="numero">Nº</string>
+    <string name="precio">PRECIO</string>
+    <string name="localidad">LOCALIDAD</string>
+    <string name="id">ID</string>
+    <string name="tipo">TIPO</string>
+    <string name="extension">.jpg</string>
+    <string name="tituloPrincipal">LISTADO DE INMUEBLES</string>
+    <string name="adosada_tipo">ADOSADA</string>
+    <string name="local_tipo">LOCAL</string>
+    <string name="chalet_tipo">CHALET</string>
+    <string name="otro_tipo">OTRO</string>
+    <string name="cortijo_tipo">CORTIJO</string>
+    <string name="parcela_tipo">PARCELA</string>
+    <string name="piso_tipo">PISO</string>
+    <string name="nuevo_usuario">nuevoUsuario</string>
+    <string name="preferencias">AJUSTES</string>
+    <string name="intro_usuario">USUARIO: </string>
+    <string name="no_fotos">NO EXISTEN FOTOS DEL INMUEBLE</string>
+    <string name="errorLectura">ERROR DE LECTURA</string>
+    <string name="seguro">¿CONFIRMAR ELIMINACIÓN?</string>
+    <string name="elemento_borrado">SE HA ELIMINADO: </string>
+    <string name="noFicheroDatos">NO EXISTE ARCHIVO DE DATOS</string>
+    <string name="noLeerDatos">NO HAY NADA QUE CARGAR</string>
+    <string name="noLeeMemoria">ERROR AL LEER MEMORIA EXTERNA</string>
+    <string name="noEscribeMemoria">ERROR AL GUARDAR EN MEMORIA EXTERNA</string>
+</resources>

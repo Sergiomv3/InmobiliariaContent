@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <fragment
+        android:id="@+id/fragmentoLista"
+        android:name="com.practicas.sergio.practicacontentprovider.FragmentoLista"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="4"
+        tools:layout="@layout/fragmento_lista" />
+
+    <fragment
+        android:id="@+id/fragmentoInmueble"
+        android:name="com.practicas.sergio.practicacontentprovider.FragmentoInmueble"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="6"
+        tools:layout="@layout/fragmento_inmueble" />
+</LinearLayout>
