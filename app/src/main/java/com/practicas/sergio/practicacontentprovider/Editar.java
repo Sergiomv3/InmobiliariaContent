@@ -62,7 +62,7 @@ public class Editar extends Activity {
             etNumero.setText(inmueble.getNumero());
             spTipo.setSelection(tipo.indexOf(inmueble.getTipo()));
             id = inmueble.getId();
-            //subido = inmueble.getSubido(); ESTO CUANDO CONECTEMOS CON EL SERVIDOR
+            subido = inmueble.getSubido();
         }else{
             editar = false;
             id = 0;

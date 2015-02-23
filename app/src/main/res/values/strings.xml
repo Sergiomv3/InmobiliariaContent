@@ -40,6 +40,7 @@
     <string name="nuevo_usuario">nuevoUsuario</string>
     <string name="preferencias">AJUSTES</string>
     <string name="intro_usuario">USUARIO: </string>
+    <string name="intro_server">SERVER:</string>
     <string name="no_fotos">NO EXISTEN FOTOS DEL INMUEBLE</string>
     <string name="errorLectura">ERROR DE LECTURA</string>
     <string name="seguro">¿CONFIRMAR ELIMINACIÓN?</string>
@@ -48,4 +49,9 @@
     <string name="noLeerDatos">NO HAY NADA QUE CARGAR</string>
     <string name="noLeeMemoria">ERROR AL LEER MEMORIA EXTERNA</string>
     <string name="noEscribeMemoria">ERROR AL GUARDAR EN MEMORIA EXTERNA</string>
+
+    <string name="servidor">Servidor</string>
+    <string name="errorServidor">Servidor</string>
+    <string name="subido">Inmubles ya subidos</string>
+    <string name="sincronizar">Sincronizar</string>
 </resources>

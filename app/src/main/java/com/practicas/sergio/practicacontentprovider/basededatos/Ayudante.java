@@ -27,7 +27,6 @@ public class Ayudante extends SQLiteOpenHelper {
                 Contrato.TablaInmueble.SUBIDO + " integer)";
         db.execSQL(sql);
     }
-
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
         String sql = "drop table if exists " + Contrato.TablaInmueble.TABLA;

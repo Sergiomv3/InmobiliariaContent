@@ -2,6 +2,7 @@ package com.practicas.sergio.practicacontentprovider;
 
 import android.content.Context;
 import android.database.Cursor;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -44,6 +45,7 @@ public class Adaptador extends CursorAdapter {
         String calle = cursor.getString(3);
         String numero = cursor.getString(4);
         int subido = cursor.getInt(5);
+        Log.e("SUBIDO",String.valueOf(subido));
         vh.tvLocalidad.setText(tipo+" en "+localidad);
         vh.tvPrecio.setText(precio+"");
         vh.tvDireccion.setText(calle + ", Nº" + numero);

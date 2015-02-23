@@ -11,7 +11,7 @@ public class Inmueble implements Comparable<Inmueble>, Serializable{
     private String localidad;
     private String tipo;
     private int precio;
-    //private int subido; // LO DEJAMOS PARA EL SERVIDOR
+    private int subido; // LO DEJAMOS PARA EL SERVIDOR
 
     public Inmueble(){
     }
@@ -22,14 +22,14 @@ public class Inmueble implements Comparable<Inmueble>, Serializable{
         this.localidad = localidad;
         this.tipo = tipo;
         this.precio = precio;
-        //this.subido = subido;
+        this.subido = subido;
     }
-    /*public int getSubido() {
+    public int getSubido() {
         return subido;
     }
     public void setSubido(int subido) {
         this.subido = subido;
-    }*/
+    }
     public int getId() {
         return id;
     }
